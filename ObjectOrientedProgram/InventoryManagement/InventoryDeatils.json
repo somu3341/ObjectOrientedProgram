@@ -1,0 +1,38 @@
+﻿{
+  "RiceList": [
+    {
+      "Name": "Sonarmasura",
+      "Weight": 20,
+      "PricePerKg": 10
+    },
+    {
+      "Name": "Sonarmasura",
+      "Weight": 20,
+      "PricePerKg": 10
+    }
+  ],
+  "WheatList": [
+    {
+      "Name": "Wheat1",
+      "Weight": 20,
+      "PricePerKg": 10
+    },
+    {
+      "Name": "Wheat2",
+      "Weight": 20,
+      "PricePerKg": 10
+    }
+  ],
+  "Pulses": [
+    {
+      "Name": "Pulses1",
+      "Weight": 20,
+      "PricePerKg": 10
+    },
+    {
+      "Name": "Pulses2",
+      "Weight": 20,
+      "PricePerKg": 10
+    }
+  ]
+}
