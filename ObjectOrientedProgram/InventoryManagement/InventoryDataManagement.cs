@@ -30,8 +30,7 @@ namespace ObjectOrientedProgram.InventoryManagement
         {
             foreach (var inventory in list)
             {
-                Console.WriteLine(inventory.Name + "\t" + inventory.Weight +
-                    "\t" + inventory.PricePerKg + "\t" + inventory.Weight * inventory.PricePerKg);
+                Console.WriteLine(inventory.Name + "   " + inventory.Weight + "   " + inventory.PricePerKg + "   " + inventory.Weight * inventory.PricePerKg);
             }
         }
         public void AddInventory()
