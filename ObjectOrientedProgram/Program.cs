@@ -1,5 +1,6 @@
 ﻿using ObjectOrientedProgram.InventoryDataManagementProblems;
 using ObjectOrientedProgram.InventoryManagement;
+using ObjectOrientedProgram.StcokAccount;
 using System;
 namespace ObjectOrientedProgram
 {
@@ -44,7 +45,11 @@ namespace ObjectOrientedProgram
                                     break;
                             }
                         }                                                                              
-                        break;                   
+                        break;
+                    case 3:
+                        StockOperation stockOperation = new StockOperation();
+                        stockOperation.ReadJsonfile(@"D:\BridgeLabs\ObjectOrientedProgram\ObjectOrientedProgram\StcokAccount\Stock.json");
+                        break;                       
                    case 4:flag = false;
                         break;
                 }
